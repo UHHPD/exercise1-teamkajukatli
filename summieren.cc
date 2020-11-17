@@ -37,9 +37,9 @@ int main()
     fin3>>daten1[0];
     fin3>>daten1[1];
     sum=daten1[0]+daten1[1];
-    fout<<sum<<"\\r"<<std::endl;
+    fout<<sum<<std::endl;
   }
  fin3.close();
  fout.close();
- fout<<sum<<"\\r"<<std::endl;
+ fout<<sum<<std::endl;
 }
