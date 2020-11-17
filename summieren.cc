@@ -4,15 +4,18 @@ int main()
 {
   int daten;
   /*Printing first 2 numbers*/
-  /*std::ifstream fin("daten.txt"); 
+  /*
+  std::ifstream fin("daten.txt"); 
   fin>>daten;
   std::cout<<daten<<"\n";
   fin>>daten;
   std::cout<<daten<<"\n";
   fin.close();
-  std::ifstream fin2("daten.txt");*/
+  std::ifstream fin2("daten.txt");
+  */
   /*Printing numbers*/
- /*for(int i=0;i<234;++i)
+  /*
+  for(int i=0;i<234;++i)
   {
    char daten[2];
    for(int j=0;j<2;++j)
@@ -22,7 +25,8 @@ int main()
    }
    /*std::cout<<"\n";
   }
-  fin.close();*/
+  fin.close();
+  */
   /*Sum of the two numbers*/
   int i,j,sum=0;
   int daten1[2];
@@ -33,8 +37,9 @@ int main()
     fin3>>daten1[0];
     fin3>>daten1[1];
     sum=daten1[0]+daten1[1];
-    fout<<sum<<std::endl;
+    fout<<sum<<"\\r"<<std::endl;
   }
  fin3.close();
  fout.close();
+ fout<<sum<<"\\r"<<std::endl;
 }
