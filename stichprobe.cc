@@ -23,12 +23,12 @@ int main()
   int a_i;
   double var;
   double var_1=0;
-  for(int j=0;j<=234;++j)
+  for(int j=0;j<234;++j)
   {
     fin1>>a_i;
     var_1+=(a_i-mean)*(a_i-mean);
   }
-  var= var_1/234;
+  var= var_1/234.0;
   cout<<"This is the variance: " << var<<endl;
   fin1.close();
   double sd;
