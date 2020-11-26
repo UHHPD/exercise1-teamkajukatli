@@ -78,7 +78,6 @@ int main()
  {
    fin3>>m_1;
    mean_1+=m_1/25.0;
-   mean_1 = mean_1+(m_1/26.0)
    fin2>>var;
    var_2+=var/25.0;
  }
