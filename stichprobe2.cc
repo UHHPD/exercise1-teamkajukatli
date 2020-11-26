@@ -77,9 +77,9 @@ int main()
  for(int m=0;m<26;++m)  /*Bessel's correction method*/
  {
    fin3>>m_1;
-   mean_1+=m_1/25.0;
+   mean_1+=m_1/26.0;
    fin2>>var;
-   var_2+=var/25.0;
+   var_2+=var/26.0;
  }
  fin3.close();
  fin2.close();
